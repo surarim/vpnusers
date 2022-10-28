@@ -10,7 +10,10 @@ import os, sys
 
 # Функция работы с файлами OpenVPN
 def run():
-  pass
+  if os.path.isfile('/etc/openvpn/openvpn-status.log'):
+    openvpnlog = open('/etc/openvpn/openvpn-status.log')
+    else:
+      pass
 
 #------------------------------------------------------------------------------------------------
 
