@@ -1,2 +1,13 @@
+![Alt text](vpnusers.png?raw=true "Title")
 # vpnusers
-OpenVPN statistics for connected users
+### Система сбора статистики о подключённых пользователях OpenVPN
+### Version 0.01 (development)
+<hr>
+Сбор статистики в файле о подключённых пользователях и их ip из OpenVPN.
+<br>
+Протестировано и собрано с использованием следующих компонентов:
+<ul>
+  <li>Python: 3.8.1</li>
+  <li>pypsrp: 0.4.0</li>
+  <li>openvpn: 2.5.5</li>
+ </ul>
