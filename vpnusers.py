@@ -34,7 +34,6 @@ def run():
             i = i - 1
             users[num] = (line.split(' ')[9]).replace("'",'') + users[num]
             break
-    else: sys.exit(0)
 
   # Вывод результата в лог
   with open(result_log_file,'w') as logfile:
